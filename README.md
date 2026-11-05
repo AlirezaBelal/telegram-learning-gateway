@@ -205,3 +205,9 @@ Telegram request. Real hosted Telegram/FPM behavior still requires operator test
 See [SECURITY.md](SECURITY.md). Keep tokens, database passwords, raw updates and
 secret-bearing URLs out of commits/logs. Revoke exposed credentials at their provider;
 deleting a file does not revoke history copies. Existing code remains [MIT](LICENSE).
+
+## Live browser demo
+
+[Open the GitHub Pages demo](https://alirezabelal.github.io/telegram-learning-gateway/)
+
+This browser conversation simulator demonstrates local menu routing, course selection, input validation, recovery, and reset. It does not connect to Telegram, send messages, use a bot token, or persist session data.
