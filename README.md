@@ -206,8 +206,22 @@ See [SECURITY.md](SECURITY.md). Keep tokens, database passwords, raw updates and
 secret-bearing URLs out of commits/logs. Revoke exposed credentials at their provider;
 deleting a file does not revoke history copies. Existing code remains [MIT](LICENSE).
 
-## Live browser demo
+## Product website and engineering case study
 
-[Open the GitHub Pages demo](https://alirezabelal.github.io/telegram-learning-gateway/)
+[Explore the architecture and installation guide](https://alirezabelal.github.io/telegram-learning-gateway/)
 
-This browser conversation simulator demonstrates local menu routing, course selection, input validation, recovery, and reset. It does not connect to Telegram, send messages, use a bot token, or persist session data.
+The static website presents this source project, its actual Persian command
+modules, authenticated webhook architecture, transaction and privacy decisions,
+and installation reference. The previous conversation simulator and its
+JavaScript have been removed. There is no chat input, Send button, live bot or
+browser-to-Telegram connection. GitHub Pages cannot execute the PHP/MySQL backend.
+
+Installation and secure deployment remain independent operator choices, not
+actions performed by the website or this presentation mission. No bot, webhook,
+PHP service, production database or real learner records were used for the release.
+
+The website preserves the green/serif identity and adds semantic architecture
+and source excerpts rather than fabricated chat or phone imagery. Its static
+contracts run with `node --test tests/static-website.test.cjs`; the Pages workflow
+also verifies seven Chromium widths, keyboard operation, RTL and axe accessibility
+before deployment. PHP and isolated MySQL CI remain unchanged.
